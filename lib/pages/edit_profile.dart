@@ -384,7 +384,7 @@ class _EditProfileState extends State<EditProfile>
             child: Padding(
               padding: EdgeInsets.only(left: 10.0),
               child: Container(
-                  child: RaisedButton(
+                  child: ElevatedButton(
                 child: Text("Cancel"),
                 textColor: Colors.white,
                 color: Colors.grey,

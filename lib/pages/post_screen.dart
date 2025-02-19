@@ -304,7 +304,7 @@ class _PostScreenState extends State<PostScreen> {
                   ),
             title: Padding(
               padding: const EdgeInsets.only(top: 7.0, bottom: 5.0),
-              child: Text(userDisplayName!),
+              child: Text(userDisplayName),
             ),
             subtitle: Container(
               height: 40.0,
@@ -312,12 +312,12 @@ class _PostScreenState extends State<PostScreen> {
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text("Email: " + userEmail!,
+                  Text("Email: " + userEmail,
                       overflow: TextOverflow.ellipsis,
                       style: TextStyle(
                         fontSize: 12.0,
                       )),
-                  Text("Phone: " + userPhone!,
+                  Text("Phone: " + userPhone,
                       overflow: TextOverflow.ellipsis,
                       style: TextStyle(
                         fontSize: 12.0,
